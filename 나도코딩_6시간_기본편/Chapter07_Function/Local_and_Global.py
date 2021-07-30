@@ -9,6 +9,7 @@ print(f"전체 총 : {gun}")
 checkpoint(2)
 print(f"남은 총 : {gun}")
 
+#전역변수를 매개변수로 받아옴(많이 사용하는 방법)
 def checkpoint_ret(gun, soldiers):
     gun=gun-soldiers
     print(f"함수 내 : 남은 총 : {gun}")
